@@ -1,0 +1,115 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+.line-top{
+    background-color:#432322 ;
+    height: 10px;
+    width: 100%;
+}
+.navbar-dark .navbar-nav .nav-link,.navbar-dark .navbar-nav .nav-link a {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.navbar-dark .navbar-nav .nav-link:hover,.navbar-dark .navbar-nav .nav-link.active{
+    color: #f06239;
+}
+.line-end-carousel{
+    transform: translateY(-20px);
+    background-image: url("../img/franja tejido_01.png");
+    width: 100%;
+    height: 30px;
+    position: absolute;
+}
+.card-footer-preparaciones{
+    background-color: #5b3c3a!important;
+    border: 1px solid #5b3c3a!important;
+    color: #fff;
+}
+.line-end-preparaciones{
+    background-image: url('../img/franja tejido copy 2.png');
+    width: 100%;
+    height: 40px;
+    transform: translateY(-15px);
+    z-index: 10;
+}
+.line-end-tejidos{
+    background-image: url('../img/TEJIDOS.png');
+
+    width: 100%;
+    height: 60px;
+    transform: translateY(-55px);
+    z-index: 99;
+
+}
+.line-end-hilos{
+     background-image: url('../img/franja tejido copy 4.png');
+     width: 100%;
+     height: 40px;
+     transform: translateY(-15px);
+     z-index: 99;
+
+ }
+.line-end-blog{
+    background-image: url('../img/franja tejido copy 5.png');
+    width: 100%;
+    height: 40px;
+    transform: translateY(-15px);
+    z-index: 99;
+
+}
+.card-footer-hilos{
+background-color: rgba(85, 64, 66, 0.78)!important;
+    color: #ece0d4;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.card-hilos{
+    border:1px solid #5b3c3a!important;
+    background-color: #5b3c3a!important;
+}
+.card-footer-blog{
+    background-color: #5b3c3a!important;
+    color: #ffffff;
+    border: 1px solid #5b3c3a!important;
+}
+.list-footer li{
+  display: inline-block;
+    margin-top: 48px;
+    color: #f9f9f9;
+    margin-right: 10px;
+}
+footer{
+    background-color: #5b3c3a;
+}
+.social-footer a{
+  color: #f9f9f9!important;
+    margin-right: 10px;
+}
+
+.btn-nattu{
+    background-color:#e3cea7!important;
+    color: #542f2e!important;
+    border-radius: 10px 10px 5px 5px;
+    border: 1px solid #e3cea7!important;
+    padding: 5px 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
