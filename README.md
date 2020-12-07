@@ -4,7 +4,7 @@ Vista index.html de la propuesta entregada en Mockup's realizados en Adobe Photo
 
 ## Comenzando 🚀
 
-Puedes clonar este repositorio con git clone [url]. Escribiendo en la consola de Windows $ git clone + url del repositorio.
+Puedes clonar este repositorio con git clone [https://github.com/LauraCamilaPaez/ariadna.git]. Escribiendo en la consola de Windows $ git clone + url del repositorio.
 Si usas GitDesktop puedes clonarlo haciendo click en la página principal del repositorio, click en la lista de archivos y por último click en Open with GitHub Desktop, click en choose y finalmente clone.
 
 Mira **Deployment** para conocer como desplegar el proyecto.
