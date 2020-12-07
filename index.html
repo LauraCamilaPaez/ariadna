@@ -10,14 +10,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/libs/bootstrap-4/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Avenas y Granolas Saludables | NAATU</title>
 </head>
 <body>
 <div class="line-top">
 
 </div>
+<div id="inspiracion"></div>
 <!-- Menu de navegacion -->
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #542f2e">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #542f2e">
     <div class="container">
     <a class="navbar-brand" href="#" style="position: absolute;z-index: 9999!important">
         <img src="assets/img/Objeto inteligente vectorial-2.png" style="margin-top:50px;" width="100px" alt="">
@@ -29,25 +30,25 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">INSPIRACIÓN</a>
+                <a class="nav-link" href="#inspiracion">INSPIRACIÓN</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">PRODUCTOS</a>
+                <a class="nav-link" href="#productos">PRODUCTOS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">PREPARACIONES</a>
+                <a class="nav-link" href="#preparaciones">PREPARACIONES</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">TEJIDOS</a>
+                <a class="nav-link" href="#tejidos">TEJIDOS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
+                <a class="nav-link" href="#blog">BLOG</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">PROGRAMA</a>
+                <a class="nav-link" href="#programa">PROGRAMA</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">REGISTRO</a>
+                <a class="nav-link" href="#registro">REGISTRO</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">
@@ -80,7 +81,7 @@
 
 <!-- carousel -->
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -107,10 +108,10 @@
 <!--end carousel-->
 <div class="line-end-carousel"></div>
 
-<section style="background-color: #fcf7ec">
+<section style="background-color: #fcf7ec" id="productos">
     <div class="container-fluid">
 
-        <br>
+        <br><br><br>
         <h2 class="text-center">PRODUCTOS</h2>
         <p class="text-center">Descubre un poco más sobre nuestra gama de productos</p>
         <div class="row">
@@ -138,8 +139,8 @@
 
     </div>
 </section>
-<section>
-    <br><br>
+<section id="preparaciones" class="pt-5">
+    <br>
     <h2 class="text-center">PREPARACIONES</h2>
     <p class="text-center">Aprende, cocina y aliméntate naturalmente por medio de <br> nuestras receras y novedades culinarias.</p>
     <div class="container-fluid">
@@ -172,15 +173,16 @@
     </div>
 </section>
 
-<br><br><br><br><br>
-<section style="background-image: url('assets/img/Rectángulo 7.png');height: 800px;background-size: cover;width: 100%;background-position: center">
+<br><br><br>
+<section id="tejidos" class="" style="background-image: url('assets/img/Rectángulo 7.png');height: 800px;background-size: cover;width: 100%;background-position: center">
     <img src="assets/img/Semillas de chia.png" alt="" style="position: absolute;transform: translateY(-130px);z-index: 999">
 <div class="line-end-preparaciones">
 </div>
+    <br><br>
 <div class="row">
     <div class="offset-md-6 col-md-5">
-          <h2>TEJIDOS PASTOS</h2>
-          <p>Los tejidos que encuetras en este espacio <br> representas <b>la vida e historias</b> de cada maestra <br>
+          <h2 class="h2-white">TEJIDOS PASTOS</h2>
+          <p class="p-white">Los tejidos que encuetras en este espacio <br> representas <b>la vida e historias</b> de cada maestra <br>
           artesana</p>
         <div class="row">
             <div class="col-md-6">
@@ -224,12 +226,12 @@
 
 </section>
 
-<section style="background-color: #5b3c3a" class="pb-5">
+<section id="" style="background-color: #5b3c3a" class="pb-5">
     <div class="line-end-tejidos">
     </div>
-    <h2 class="text-center">HILOS CON ESTILO</h2>
-    <p class="text-center">Cientos de artistas se unen todos los dias a expresar desde su <br> vision el poder de las mujeres indigenas artesanas, sumate creando
-        <br> tu version y compartiendola en tus redes usando #MujeresTejido</p>
+    <h2 class="text-center h2-white">HILOS CON ESTILO</h2>
+    <p class="text-center p-white">Cientos de artistas se unen todos los dias a expresar desde su <br> vision el poder de las mujeres indigenas artesanas, sumate creando
+        <br> tu version y compartiendola en tus redes usando <span class="hashtag">#MujeresTejido</span></p>
   <div class="container">
     <div class="row">
         <div class="col-md-3 p-0 m-0">
@@ -303,7 +305,7 @@
 </section>
 
 
-<section class="pb-5">
+<section class="pb-5" id="blog">
     <div class="line-end-hilos">
     </div>
 

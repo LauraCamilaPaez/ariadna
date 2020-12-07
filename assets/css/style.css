@@ -113,3 +113,27 @@ footer{
     font-weight: 900;
     text-transform: uppercase;
 }
+h2{
+    color: #542f2e;
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+p{
+    color: #542f2e;
+    font-size: 20px;
+    font-weight: 400;
+}
+.h2-white{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.p-white{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.hashtag{
+    color: #e79b3f!important;
+}
