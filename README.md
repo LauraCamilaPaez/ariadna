@@ -26,8 +26,8 @@ Clonar el repositorio y usar un servidor local para desplegar la aplicación y f
 Herramientas que use para la creación de la vista.
 
 1. BOOTSTRAP (https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Framework de diseño.
-2. CSS(https://developer.mozilla.org/es/docs/Web/CSS) - Hojas de estilo en cascada.
-3. HTML 5 (hhttps://developer.mozilla.org/es/docs/Web/HTML) - Lenguaje de etiquetas de hipertexto.
+2. CSS https://developer.mozilla.org/es/docs/Web/CSS) - Hojas de estilo en cascada.
+3. HTML 5 (https://developer.mozilla.org/es/docs/Web/HTML) - Lenguaje de etiquetas de hipertexto.
 4. JS (https://developer.mozilla.org/es/docs/Web/JavaScript) - Lenguaje de Programación compilado.
 5. jQuery (https://developer.mozilla.org/es/docs/Glossary/jQuery) - Biblioteca multiplataforma de JavaScript
 
